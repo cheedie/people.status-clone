@@ -1,40 +1,43 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../assets/SVG/status-logo.svg";
 
 const Navbar = () => {
   return (
     <main className="main-container">
       <header className="nav-header-container background-container">
         <div className="header-contents">
+          <img src={logo} alt="" className="logo" />
           <h2>People Ops at Status</h2>
         </div>
         <div className="navlinks-container">
           <ul className="nav-links">
             <li>
-              <a href="/#">direct</a>
+              <Link to="#">direct</Link>
             </li>
             <li>
-              <a href="/#">get started!</a>
+              <Link to="#">get started!</Link>
             </li>
             <li>
-              <a href="/#">perks</a>
+              <Link to="#">perks</Link>
             </li>
             <li>
-              <a href="/#">working here</a>
+              <Link to="#">working here</Link>
             </li>
             <li>
-              <a href="/#">health</a>
+              <Link to="#">health</Link>
             </li>
             <li>
-              <a href="/#">travel</a>
+              <Link to="#">travel</Link>
             </li>
             <li>
-              <a href="/#">hiring</a>
+              <Link to="#">hiring</Link>
             </li>
             <li>
-              <a href="/#">team lead manual</a>
+              <Link to="#">team lead manual</Link>
             </li>
             <li>
-              <a href="/#">finance</a>
+              <Link to="#">finance</Link>
             </li>
           </ul>
 

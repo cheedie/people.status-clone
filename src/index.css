@@ -77,6 +77,9 @@ Header
   text-align: center;
   padding: 6rem 2rem;
 }
+.logo {
+  max-height: 45px;
+}
 .header-contents h2 {
   font-family: var(--fontFamily);
   font-size: 1.5rem;
@@ -148,6 +151,6 @@ Header
     margin: 0 auto;
   }
   .header-contents {
-    padding: 10rem 2rem;
+    padding: 8rem 2rem;
   }
 }
