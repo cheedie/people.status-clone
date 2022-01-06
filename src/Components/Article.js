@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { contents } from "../Components/content";
 
 const Article = () => {
   return (
     <section className="article-container">
-      <div className="card-container">
+      <div className="card-container section-center">
         {contents.map((item) => {
           const {
             id,
@@ -17,18 +18,26 @@ const Article = () => {
             duration,
           } = item;
           return (
-            <article className="card" key={id}>
-              <img src={image} alt={alt} />
-              <div className="card-contents">
-                <p>{category}</p>
-                <h2>{title}</h2>
-                <p>{desc}</p>
-              </div>
-              <footer>
-                <img src={logo} alt="" />
-                <p>{duration}</p>
-              </footer>
-            </article>
+            <Link to={`/filing-expenses/${id}`}>
+              <article className="card" key={id}>
+                <img src={image} alt={alt} className="img article-img" />
+                <div className="card-contents">
+                  <div className="card-content">
+                    <p className="article-category">{category}</p>
+                    <h2 className="article-title">{title}</h2>
+                    <p className="article-desc">{desc}</p>
+                  </div>
+                  <footer className="article-footer">
+                    <img
+                      src={logo}
+                      className="footer-logo"
+                      alt="article logo"
+                    />
+                    <p className="article-time">{duration}</p>
+                  </footer>
+                </div>
+              </article>
+            </Link>
           );
         })}
       </div>

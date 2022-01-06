@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from "../assets/SVG/logo_dribble.svg";
+import footerLogo from "../assets/SVG/logo_dribbble.png";
 import fillingExpenses from "../assets/finances-img.jpeg";
 import thirdPartyImg from "../assets/invoices-img.jpeg";
 import gettingPaid from "../assets/getting-paid-img.jpeg";

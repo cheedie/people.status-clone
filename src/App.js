@@ -1,11 +1,17 @@
 import "./App.css";
-import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import FullPost from "./Components/FullPost";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar />
-      
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" exact={true} element={<Home />}></Route>
+          <Route path="/filing-expenses/:id" element={<FullPost />}></Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
