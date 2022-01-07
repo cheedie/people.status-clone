@@ -18,26 +18,28 @@ const Article = () => {
             duration,
           } = item;
           return (
-            <Link to={`/filing-expenses/${id}`}>
-              <article className="card" key={id}>
-                <img src={image} alt={alt} className="img article-img" />
-                <div className="card-contents">
-                  <div className="card-content">
-                    <p className="article-category">{category}</p>
-                    <h2 className="article-title">{title}</h2>
-                    <p className="article-desc">{desc}</p>
+            <>
+              <Link to={`/${title.toLowerCase().replaceAll(" ", "-")}`}>
+                <article className="card" key={id}>
+                  <img src={image} alt={alt} className="img article-img" />
+                  <div className="card-contents">
+                    <div className="card-content">
+                      <p className="article-category">{category}</p>
+                      <h2 className="article-title">{title}</h2>
+                      <p className="article-desc">{desc}</p>
+                    </div>
+                    <footer className="article-footer">
+                      <img
+                        src={logo}
+                        className="footer-logo"
+                        alt="article logo"
+                      />
+                      <p className="article-time">{duration}</p>
+                    </footer>
                   </div>
-                  <footer className="article-footer">
-                    <img
-                      src={logo}
-                      className="footer-logo"
-                      alt="article logo"
-                    />
-                    <p className="article-time">{duration}</p>
-                  </footer>
-                </div>
-              </article>
-            </Link>
+                </article>
+              </Link>
+            </>
           );
         })}
       </div>

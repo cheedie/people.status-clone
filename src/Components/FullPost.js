@@ -6,6 +6,7 @@ const FullPost = () => {
   return (
     <>
       <FullPostNavBar />
+      <Footer />
     </>
   );
 };

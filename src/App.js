@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" exact={true} element={<Home />}></Route>
-          <Route path="/filing-expenses/:id" element={<FullPost />}></Route>
+          <Route path="/:id" element={<FullPost />}></Route>
         </Routes>
       </BrowserRouter>
     </>

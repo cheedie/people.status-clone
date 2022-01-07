@@ -13,6 +13,9 @@ html {
 :root {
   --greyColor: #b5bcda;
   --primaryColor-1: #738a94;
+  --primaryColor-2: #3eb0ef;
+  --primaryColor-3: #090a0b;
+  --primaryColor-4: #3c484e;
   --black: #222;
   --white: #fff;
   --fontFamily: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -36,10 +39,6 @@ body {
 
 a {
   text-decoration: none;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
 }
 
 .img {
@@ -105,6 +104,7 @@ Header
 }
 .nav-links {
   display: flex;
+  list-style-type: none;
 }
 .nav-links a {
   color: var(--white);
@@ -160,6 +160,7 @@ Article
 }
 .card-content {
   padding: 1.5rem 1.5rem 0;
+  height: 220px;
   color: #15171a;
 }
 .article-category {
@@ -236,6 +237,10 @@ FullPostNav
   display: flex;
   background: #090a0b;
   height: 4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
 }
 
 .full-post-header-contents {
@@ -259,6 +264,49 @@ FullPostNav
   padding-left: 0;
   padding-bottom: 0;
 }
+.full-post-header {
+  text-align: center;
+  margin: 4rem auto 0 auto;
+  max-width: var(--maxWidth);
+  padding: 14vw 3vw 10vw;
+}
+
+.full-post-details,
+.full-post-category {
+  color: var(--primaryColor-2);
+  font-size: 0.85rem;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: var(--letterSpacing);
+}
+.full-post-title {
+  color: var(--primaryColor-3);
+  letter-spacing: var(--letterSpacing);
+  margin-top: 0.4rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.full-post-image {
+  height: 350px;
+  margin-bottom: 4vw;
+}
+
+.post-content {
+  font-family: Georgia, serif;
+  line-height: 1.6em;
+}
+.post-content h3 h4 {
+  font-weight: 700;
+  color: var(--primaryColor-3);
+  font-size: 1.2rem;
+  margin: 0.5em 0 0.2em;
+}
+.post-content P {
+  color: var(--primaryColor-4);
+  margin-bottom: 2rem;
+}
 
 @media screen and (min-width: 700px) {
   .social-links {
@@ -275,6 +323,17 @@ FullPostNav
     fill: var(--white);
     opacity: 0.8;
   }
+  .full-post-image {
+    height: 700px;
+  }
+  .post-content {
+    width: 80vw;
+    margin: 0 auto;
+    padding: 3rem;
+    position: relative;
+    top: -9rem;
+    background: #fff;
+  }
 }
 @media screen and (min-width: 800px) {
   .navlinks-container {
@@ -290,7 +349,7 @@ FullPostNav
   .header-contents {
     padding: 8rem 2rem;
   }
-  /* .full-post-header-contents {
-    
-  } */
+  .full-post-header {
+    padding: 6vw 3vw;
+  }
 }

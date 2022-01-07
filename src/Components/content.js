@@ -11,6 +11,7 @@ export const contents = [
     id: 1,
     image: fillingExpenses,
     alt: "filling expenses article",
+    cardType: "single",
     category: "finance",
     title: "filing expenses",
     desc:
@@ -22,6 +23,7 @@ export const contents = [
     id: 2,
     image: thirdPartyImg,
     alt: "third party article",
+    cardType: "three",
     category: "finance",
     title: "Third party invoices format",
     desc:
@@ -33,6 +35,7 @@ export const contents = [
     id: 3,
     image: gettingPaid,
     alt: "getting paid article",
+    cardType: "three",
     category: "finance",
     title: "getting paid",
     desc:
@@ -44,6 +47,7 @@ export const contents = [
     id: 4,
     image: trialImg,
     alt: "trial period article",
+    cardType: "three",
     category: "get started",
     title: "the trial period",
     desc:
@@ -55,6 +59,7 @@ export const contents = [
     id: 5,
     image: whoImg,
     alt: "who is who article",
+    cardType: "single",
     category: "get started",
     title: "who is who",
     desc:
