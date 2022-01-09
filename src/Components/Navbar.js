@@ -6,7 +6,7 @@ const NavBar = ({ showLogo }) => {
   return (
     <>
       <div className="navlinks-contents">
-        <div className="navlinks-container s">
+        <div className="navlinks-container">
           {showLogo ? (
             <img src={logo} alt="logo" className="full-post-logo" />
           ) : null}
