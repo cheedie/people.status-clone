@@ -1,6 +1,6 @@
 import React, { useState, useRef, Fragment } from "react";
 import { Link, useParams } from "react-router-dom";
-import Navbar from "./NavBar";
+import NavBar from "./NavBar";
 import { contents } from "../Components/content";
 
 const FullPostHeader = () => {
@@ -18,7 +18,7 @@ const FullPostHeader = () => {
     <main>
       <div className="nav-container">
         <header className="section-center">
-          <Navbar showLogo={true} />
+          <NavBar showLogo={true} />
         </header>
         <div
           ref={scrollRef}

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/SVG/status-logo.svg";
 
-const Navbar = ({ showLogo }) => {
+const NavBar = ({ showLogo }) => {
   return (
     <>
       <div className="navlinks-contents">
@@ -63,4 +63,4 @@ const Navbar = ({ showLogo }) => {
   );
 };
 
-export default Navbar;
+export default NavBar;
