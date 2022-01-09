@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/SVG/status-logo.svg";
 import Expenses3 from "../assets/Exp-3.png";
@@ -7,6 +7,15 @@ import Expenses1 from "../assets/Exp-1.png";
 import Expenses2 from "../assets/Exp-2.png";
 
 const FullPostNavBar = () => {
+  const scrollRef = useRef(0);
+  const [scroll, setScroll] = useState(0);
+  const onScroll = () => {
+    const scrolled = document.documentElement.scrollTop;
+    const maxHeight = document.documentElement.clientHeight;
+    const scrollPercent = (scrolled / maxHeight) * 100;
+    setScroll(scrollPercent);
+  };
+  window.addEventListener("scroll", onScroll);
   return (
     <main>
       <div className="nav-container">
@@ -64,7 +73,13 @@ const FullPostNavBar = () => {
             </div>
           </div>
         </header>
+        <div
+          ref={scrollRef}
+          style={{ width: `${scroll}%` }}
+          className="scroll-container"
+        ></div>
       </div>
+
       <section className="full-post-header">
         <div className="full-post-details">
           <time dateTime="2021-08-20" className="full-post-time">

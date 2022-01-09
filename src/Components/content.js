@@ -1,4 +1,3 @@
-import React from "react";
 import footerLogo from "../assets/SVG/logo_dribbble.png";
 import fillingExpenses from "../assets/finances-img.jpeg";
 import thirdPartyImg from "../assets/invoices-img.jpeg";
@@ -23,7 +22,7 @@ export const contents = [
     id: 2,
     image: thirdPartyImg,
     alt: "third party article",
-    cardType: "three",
+    cardType: "normal",
     category: "finance",
     title: "Third party invoices format",
     desc:
@@ -35,7 +34,7 @@ export const contents = [
     id: 3,
     image: gettingPaid,
     alt: "getting paid article",
-    cardType: "three",
+    cardType: "normal",
     category: "finance",
     title: "getting paid",
     desc:
@@ -47,7 +46,7 @@ export const contents = [
     id: 4,
     image: trialImg,
     alt: "trial period article",
-    cardType: "three",
+    cardType: "normal",
     category: "get started",
     title: "the trial period",
     desc:
@@ -59,7 +58,20 @@ export const contents = [
     id: 5,
     image: whoImg,
     alt: "who is who article",
-    cardType: "single",
+    cardType: "normal",
+    category: "get started",
+    title: "who is who",
+    desc:
+      "It’s hard to get to know everyone straight away. Here are some helpful ways to connect with your fellow Status folk:  Ask your lead about the important people relevant to your work",
+    logo: footerLogo,
+    duration: "1 min read",
+    fullPost: "Lorem ipsium",
+  },
+  {
+    id: 6,
+    image: whoImg,
+    alt: "who is who article",
+    cardType: "normal",
     category: "get started",
     title: "who is who",
     desc:

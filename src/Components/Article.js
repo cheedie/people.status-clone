@@ -12,6 +12,7 @@ const Article = () => {
             image,
             alt,
             category,
+            cardType,
             title,
             desc,
             logo,
@@ -19,9 +20,20 @@ const Article = () => {
           } = item;
           return (
             <>
-              <Link to={`/${title.toLowerCase().replaceAll(" ", "-")}`}>
-                <article className="card" key={id}>
+              <article
+                className={`${cardType === "single" ? "single-card" : ""} card`}
+                key={id}
+              >
+                <Link
+                  to={`/${title.toLowerCase().replaceAll(" ", "-")}`}
+                  className="card-contents-image"
+                >
                   <img src={image} alt={alt} className="img article-img" />
+                </Link>
+                <Link
+                  to={`/${title.toLowerCase().replaceAll(" ", "-")}`}
+                  className="card-contents-link"
+                >
                   <div className="card-contents">
                     <div className="card-content">
                       <p className="article-category">{category}</p>
@@ -37,8 +49,8 @@ const Article = () => {
                       <p className="article-time">{duration}</p>
                     </footer>
                   </div>
-                </article>
-              </Link>
+                </Link>
+              </article>
             </>
           );
         })}
