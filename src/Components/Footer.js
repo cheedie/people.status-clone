@@ -1,28 +1,21 @@
 import React from "react";
 
 const Footer = () => {
+  var date = new Date().getFullYear();
   return (
-    <section className="home-footer">
+    <footer className="home-footer">
       <div className="home-footer-content section-center">
-        <div className="copyright">
-          <p>People Ops at Status &copy; 2021</p>
-        </div>
-        <ul className="footer-links">
-          <li>
-            <a href="#">Latest Posts</a>
-          </li>
-          <li>
-            <a href="#">Facebook</a>
-          </li>
-          <li>
-            <a href="#">Twitter</a>
-          </li>
-          <li>
-            <a href="#">Ghost</a>
-          </li>
-        </ul>
+        <section className="copyright">
+          <p>People Ops at Status &copy; {date}</p>
+        </section>
+        <nav className="footer-links">
+          <a href="/#">Latest Posts</a>
+          <a href="/#">Facebook</a>
+          <a href="/#">Twitter</a>
+          <a href="/#">Ghost</a>
+        </nav>
       </div>
-    </section>
+    </footer>
   );
 };
 

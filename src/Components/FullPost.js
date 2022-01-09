@@ -1,11 +1,11 @@
 import React from "react";
-import FullPostNavBar from "./FullPostNavBar";
+import FullPostHeader from "./FullPostHeader";
 import Footer from "./Footer";
 
 const FullPost = () => {
   return (
     <>
-      <FullPostNavBar />
+      <FullPostHeader />
       <Footer />
     </>
   );

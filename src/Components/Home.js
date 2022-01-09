@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Header from "./Header";
 import Article from "./Article";
 import Footer from "./Footer";
 
 const Home = () => {
   return (
     <>
-      <Navbar />
+      <Header />
       <Article />
       <Footer />
     </>

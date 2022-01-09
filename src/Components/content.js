@@ -4,6 +4,7 @@ import thirdPartyImg from "../assets/invoices-img.jpeg";
 import gettingPaid from "../assets/getting-paid-img.jpeg";
 import trialImg from "../assets/trial-period.jpeg";
 import whoImg from "../assets/who-is-who.jpeg";
+import referFriend from "../assets/refer-a-friend.jpeg";
 
 export const contents = [
   {
@@ -17,6 +18,8 @@ export const contents = [
       "How to get reimbursed for expenses? In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a",
     logo: footerLogo,
     duration: "3 min read",
+    fullPost:
+      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
   },
   {
     id: 2,
@@ -29,6 +32,8 @@ export const contents = [
       "When subscribing to services or paying external vendors &amp; contractors, please make sure that the invoices they provide are fully complete. This page has more information on what we'll need. Here's a sample",
     logo: footerLogo,
     duration: "I min read",
+    fullPost:
+      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
   },
   {
     id: 3,
@@ -41,6 +46,8 @@ export const contents = [
       "Send your invoice (in PDF format only) to billing@status.im, latest on the 15th.Your invoicing period is the current calendar month (e.g. invoice by 15th October for your services in",
     logo: footerLogo,
     duration: "4 min read",
+    fullPost:
+      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
   },
   {
     id: 4,
@@ -53,6 +60,8 @@ export const contents = [
       "We consider your first +/- 12 weeks of contributing full-time as a trial period. The trial period length varies if you're on a day/hour contributor agreement, so please do ask anyone in",
     logo: footerLogo,
     duration: "4 min read",
+    fullPost:
+      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
   },
   {
     id: 5,
@@ -65,18 +74,21 @@ export const contents = [
       "It’s hard to get to know everyone straight away. Here are some helpful ways to connect with your fellow Status folk:  Ask your lead about the important people relevant to your work",
     logo: footerLogo,
     duration: "1 min read",
-    fullPost: "Lorem ipsium",
+    fullPost:
+      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
   },
   {
     id: 6,
-    image: whoImg,
-    alt: "who is who article",
+    image: referFriend,
+    alt: "refer a friend article",
     cardType: "normal",
-    category: "get started",
-    title: "who is who",
+    category: "working here",
+    title: "refer a friend",
     desc:
-      "It’s hard to get to know everyone straight away. Here are some helpful ways to connect with your fellow Status folk:  Ask your lead about the important people relevant to your work",
+      "There are lots of ways you can help grow Status (interviewing, helping out with events, engaging with the community, etc.), but referring outstanding people is one of the most direct ways you can",
     logo: footerLogo,
-    duration: "1 min read",
+    duration: "2 min read",
+    fullPost:
+      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
   },
 ];
