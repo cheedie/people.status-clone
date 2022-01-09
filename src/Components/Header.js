@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../assets/SVG/status-logo.svg";
 import NavBar from "./NavBar";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <main className="main-container">
       <header className="nav-header-container background-container">
@@ -16,4 +16,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;
