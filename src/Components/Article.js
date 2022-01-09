@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { contents } from "../Components/content";
+import { contents } from "./content";
 
 const Article = () => {
   return (

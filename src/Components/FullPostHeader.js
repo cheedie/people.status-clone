@@ -1,7 +1,7 @@
 import React, { useState, useRef, Fragment } from "react";
 import { Link, useParams } from "react-router-dom";
 import NavBar from "./NavBar";
-import { contents } from "../Components/content";
+import { contents } from "./content";
 
 const FullPostHeader = () => {
   const scrollRef = useRef(0);
