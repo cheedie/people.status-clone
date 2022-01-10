@@ -19,7 +19,7 @@ export const contents = [
     logo: footerLogo,
     duration: "3 min read",
     fullPost:
-      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio modi enim iusto. Adipisci, saepe! Quam rerum modi odit, quia qui nam soluta dignissimos molestiae iste reiciendis ab sunt accusantium ratione fugiat libero beatae, harum velit sit saepe eveniet minima perferendis asperiores? Nemo suscipit officia inventore, porro quasi tempore, iure libero eius voluptatem sed ea vitae odio necessitatibus consequuntur! Corrupti quod dolor, quas voluptas aperiam autem tempora libero assumenda dolore. Animi aliquam nobis, molestias dicta adipisci neque sequi cumque sint quidem corrupti, fugiat placeat voluptatibus dolor? Quo, vitae. Quo ipsa magni possimus cupiditate eius atque aperiam sint corrupti non. Dolorum?",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ export const contents = [
     logo: footerLogo,
     duration: "I min read",
     fullPost:
-      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio modi enim iusto. Adipisci, saepe! Quam rerum modi odit, quia qui nam soluta dignissimos molestiae iste reiciendis ab sunt accusantium ratione fugiat libero beatae, harum velit sit saepe eveniet minima perferendis asperiores? Nemo suscipit officia inventore, porro quasi tempore, iure libero eius voluptatem sed ea vitae odio necessitatibus consequuntur! Corrupti quod dolor, quas voluptas aperiam autem tempora libero assumenda dolore. Animi aliquam nobis, molestias dicta adipisci neque sequi cumque sint quidem corrupti, fugiat placeat voluptatibus dolor? Quo, vitae. Quo ipsa magni possimus cupiditate eius atque aperiam sint corrupti non. Dolorum?",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ export const contents = [
     logo: footerLogo,
     duration: "4 min read",
     fullPost:
-      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio modi enim iusto. Adipisci, saepe! Quam rerum modi odit, quia qui nam soluta dignissimos molestiae iste reiciendis ab sunt accusantium ratione fugiat libero beatae, harum velit sit saepe eveniet minima perferendis asperiores? Nemo suscipit officia inventore, porro quasi tempore, iure libero eius voluptatem sed ea vitae odio necessitatibus consequuntur! Corrupti quod dolor, quas voluptas aperiam autem tempora libero assumenda dolore. Animi aliquam nobis, molestias dicta adipisci neque sequi cumque sint quidem corrupti, fugiat placeat voluptatibus dolor? Quo, vitae. Quo ipsa magni possimus cupiditate eius atque aperiam sint corrupti non. Dolorum?",
   },
   {
     id: 4,
@@ -61,7 +61,7 @@ export const contents = [
     logo: footerLogo,
     duration: "4 min read",
     fullPost:
-      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio modi enim iusto. Adipisci, saepe! Quam rerum modi odit, quia qui nam soluta dignissimos molestiae iste reiciendis ab sunt accusantium ratione fugiat libero beatae, harum velit sit saepe eveniet minima perferendis asperiores? Nemo suscipit officia inventore, porro quasi tempore, iure libero eius voluptatem sed ea vitae odio necessitatibus consequuntur! Corrupti quod dolor, quas voluptas aperiam autem tempora libero assumenda dolore. Animi aliquam nobis, molestias dicta adipisci neque sequi cumque sint quidem corrupti, fugiat placeat voluptatibus dolor? Quo, vitae. Quo ipsa magni possimus cupiditate eius atque aperiam sint corrupti non. Dolorum?",
   },
   {
     id: 5,
@@ -75,7 +75,7 @@ export const contents = [
     logo: footerLogo,
     duration: "1 min read",
     fullPost:
-      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio modi enim iusto. Adipisci, saepe! Quam rerum modi odit, quia qui nam soluta dignissimos molestiae iste reiciendis ab sunt accusantium ratione fugiat libero beatae, harum velit sit saepe eveniet minima perferendis asperiores? Nemo suscipit officia inventore, porro quasi tempore, iure libero eius voluptatem sed ea vitae odio necessitatibus consequuntur! Corrupti quod dolor, quas voluptas aperiam autem tempora libero assumenda dolore. Animi aliquam nobis, molestias dicta adipisci neque sequi cumque sint quidem corrupti, fugiat placeat voluptatibus dolor? Quo, vitae. Quo ipsa magni possimus cupiditate eius atque aperiam sint corrupti non. Dolorum?",
   },
   {
     id: 6,
@@ -89,6 +89,6 @@ export const contents = [
     logo: footerLogo,
     duration: "2 min read",
     fullPost:
-      "In order to be reimbursed for expenses incurred on behalf of Status during the development of the project, you will need to invoice Status and submit a report obtained through",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio modi enim iusto. Adipisci, saepe! Quam rerum modi odit, quia qui nam soluta dignissimos molestiae iste reiciendis ab sunt accusantium ratione fugiat libero beatae, harum velit sit saepe eveniet minima perferendis asperiores? Nemo suscipit officia inventore, porro quasi tempore, iure libero eius voluptatem sed ea vitae odio necessitatibus consequuntur! Corrupti quod dolor, quas voluptas aperiam autem tempora libero assumenda dolore. Animi aliquam nobis, molestias dicta adipisci neque sequi cumque sint quidem corrupti, fugiat placeat voluptatibus dolor? Quo, vitae. Quo ipsa magni possimus cupiditate eius atque aperiam sint corrupti non. Dolorum?",
   },
 ];

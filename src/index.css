@@ -270,7 +270,7 @@ Footer
 
 .copyright,
 .footer-links a {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: hsla(0, 0%, 100%, 0.7);
   letter-spacing: var(--letterSpacing);
   font-family: var(--fontFamily);
@@ -376,17 +376,13 @@ FullPost
   font-family: Georgia, serif;
   line-height: 1.6em;
 }
-.post-content h3 h4 {
-  font-family: var(--fontFamily);
-  font-weight: 700;
-  color: var(--primaryColor-3);
-  font-size: 1.2rem;
-  margin: 0.5em 0 0.2em;
-}
+
 .post-content p {
   font-family: var(--fontFamily);
   color: var(--primaryColor-4);
   margin-bottom: 2rem;
+  letter-spacing: var(--letterSpacing);
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 500px) {
