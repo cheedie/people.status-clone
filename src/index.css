@@ -98,7 +98,6 @@ Header
   font-weight: 200;
   opacity: 0.8;
   letter-spacing: var(--letterSpacing);
-  text-rendering: optimizeLegibility;
   padding-top: 0.3rem;
 }
 
@@ -336,8 +335,9 @@ FullPost
   text-align: center;
   margin: 4rem auto 0 auto;
   max-width: var(--maxWidth);
-  padding: 14vw 3vw 10vw;
+  padding: 12.5vw 3vw;
 }
+
 .scroll-container {
   height: 2px;
   background: #3eb0ef;
@@ -361,14 +361,14 @@ FullPost
 .full-post-title {
   color: var(--primaryColor-3);
   letter-spacing: var(--letterSpacing);
-  margin-top: 0.4rem;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.85rem;
   text-transform: capitalize;
+  font-family: var(--fontFamily);
 }
 
 .full-post-image {
-  height: 350px;
+  height: 380px;
   margin-bottom: 4vw;
 }
 
@@ -387,6 +387,25 @@ FullPost
   font-family: var(--fontFamily);
   color: var(--primaryColor-4);
   margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 500px) {
+  .post-content {
+    width: 92vw;
+    margin: 0 auto;
+    padding: 3rem;
+    position: relative;
+    top: -7rem;
+    background: #fff;
+  }
+
+  .full-post-header {
+    padding: 8vw 3vw 4vw 3vw;
+  }
+  .full-post-title {
+    font-size: 3.2rem;
+    font-weight: 600;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -416,12 +435,11 @@ FullPost
   .home-footer-content {
     flex-direction: row;
   }
-  .full-post-image {
-    height: 700px;
-  }
-
   .header-contents {
     padding: 7rem 2rem 3rem 2rem;
+  }
+  .nav-container .social-link {
+    padding-right: 1.3rem;
   }
 }
 
@@ -434,6 +452,9 @@ FullPost
   }
   .article-container {
     padding: 2.5rem 0 1rem 0;
+  }
+  .full-post-image {
+    height: 600px;
   }
   .footer-links a:first-child {
     margin-left: 0;
@@ -470,10 +491,11 @@ FullPost
     padding: 6rem 2rem 2rem 2rem;
   }
   .full-post-header {
-    padding: 6vw 3vw;
+    padding: 7vw 3vw 2.5vw 3vw;
   }
+
   .post-content {
-    width: 80vw;
+    width: 92vw;
     margin: 0 auto;
     padding: 3rem;
     position: relative;
@@ -501,6 +523,9 @@ FullPost
   .single-card .card-contents-link {
     width: 35%;
   }
+  .header-contents h2 {
+    font-size: 1.3rem;
+  }
 }
 @media screen and (min-width: 990px) {
   .section-center {
@@ -521,5 +546,11 @@ FullPost
     padding: 0 0.5rem 5.85rem 0;
     width: 85vw;
     margin: 0 auto;
+  }
+  .post-content {
+    width: 80vw;
+  }
+  .full-post-image {
+    height: 800px;
   }
 }
