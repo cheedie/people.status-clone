@@ -9,7 +9,7 @@ const FullPostHeader = () => {
   const onScroll = () => {
     const scrolled = document.documentElement.scrollTop;
     const maxHeight = document.documentElement.clientHeight;
-    const scrollPercent = scrolled / maxHeight / 100;
+    const scrollPercent = (scrolled / maxHeight) * 100;
     setScroll(scrollPercent);
   };
   window.addEventListener("scroll", onScroll);
