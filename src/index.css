@@ -7,8 +7,8 @@
 }
 
 html {
-  font-size: 100%;
-} /*16px*/
+  font-size: 16px;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap");
 
@@ -39,7 +39,9 @@ body {
   line-height: 1;
   text-rendering: optimizeLegibility;
 }
-
+ul {
+  list-style-type: none;
+}
 a {
   text-decoration: none;
 }
@@ -51,7 +53,7 @@ a {
 }
 
 .section-center {
-  width: 92vw;
+  width: 91vw;
   margin: 0 auto;
   max-width: var(--maxWidth);
 }
@@ -124,7 +126,6 @@ Header
 }
 .nav-links {
   display: flex;
-  list-style-type: none;
 }
 .nav-links a {
   font-family: var(--fontFamily);
@@ -136,6 +137,7 @@ Header
   letter-spacing: var(--letterSpacing);
   cursor: pointer;
 }
+
 .social-links {
   display: none;
 }
@@ -194,9 +196,9 @@ Article
   flex-grow: 1;
 }
 .card-content {
-  padding: 1.5rem 2.5rem 0;
   height: auto;
   color: #15171a;
+  padding: 1.8rem 2.8rem 1.8rem 2.3rem;
 }
 .article-category,
 .article-title,
@@ -233,7 +235,7 @@ Article
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem 1.5rem;
+  padding: 0 2.5rem 1.5rem 1.75rem;
 }
 .footer-logo {
   max-height: 30px;
@@ -270,7 +272,7 @@ Footer
 
 .copyright,
 .footer-links a {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: hsla(0, 0%, 100%, 0.7);
   letter-spacing: var(--letterSpacing);
   font-family: var(--fontFamily);
@@ -369,6 +371,8 @@ FullPost
 
 .full-post-image {
   height: 380px;
+  width: 100%;
+  object-fit: cover;
   margin-bottom: 4vw;
 }
 
@@ -456,7 +460,7 @@ FullPost
     margin-left: 0;
   }
   .single-card .article-desc {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .card-container > .div-wrapper .single-card {
     flex-direction: row;
@@ -525,11 +529,12 @@ FullPost
 }
 @media screen and (min-width: 990px) {
   .section-center {
-    width: 80vw;
+    width: 82vw;
   }
   .header-contents {
-    padding: 8rem 2rem 5rem 2rem;
+    padding: 7rem 2rem 5rem 2rem;
   }
+
   .navlinks-container {
     overflow-x: hidden;
     width: auto;
@@ -539,8 +544,8 @@ FullPost
   }
 
   .navlinks-contents {
-    padding: 0 0.5rem 5.85rem 0;
-    width: 85vw;
+    padding: 0 0.3rem 5.85rem 0;
+    width: 87vw;
     margin: 0 auto;
   }
   .post-content {
@@ -548,5 +553,17 @@ FullPost
   }
   .full-post-image {
     height: 800px;
+  }
+  .article-title {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .full-image-container {
+    overflow: hidden;
+    margin: 0 4vw;
+  }
+  .full-post-image {
+    border-radius: 5px;
   }
 }

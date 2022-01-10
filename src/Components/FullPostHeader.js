@@ -46,9 +46,10 @@ const FullPostHeader = () => {
                   <h1 className="full-post-title">{title}</h1>
                 </div>
               </section>
-
               <section className="full-post-content">
-                <img src={image} alt={alt} className="full-post-image img" />
+                <figure className="full-image-container">
+                  <img src={image} alt={alt} className="full-post-image" />
+                </figure>
                 <div className="post-content section-center">
                   <p>{fullPost}</p>
                 </div>
